@@ -34,6 +34,15 @@ const NavBar = () => {
           >
             DC
           </NavLink>
+
+          <NavLink
+            className={(isActive) => {
+              return "nav-item nav-link";
+            }}
+            to="/search"
+          >
+            Search
+          </NavLink>
         </div>
       </div>
 
