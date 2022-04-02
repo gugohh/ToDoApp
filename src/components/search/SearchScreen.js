@@ -50,9 +50,7 @@ const SearchScreen = () => {
             </button>
           </form>
         </div>
-        <div className="col">
-          <div className="col-5">
-          </div>
+          
           <div className="col-7">
             <h4>Resultados</h4>
             <hr />
@@ -76,7 +74,6 @@ const SearchScreen = () => {
             }
           </div>
         </div>
-      </div>
     </>
   );
 };
